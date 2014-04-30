@@ -28,32 +28,15 @@
                 <div class="bg_sec bg08"></div>
                 <div class="bg_sec bg09"></div>
             </div>
-            <div class="svg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" version="1.1">
-                    <line xmlns="http://www.w3.org/2000/svg" x1="50%" y1="11.25%" x2="7.81%" y2="13.74%" style="stroke:rgb(255,255,255);stroke-width:1"/>
-                    <line xmlns="http://www.w3.org/2000/svg" x1="7.81%" y1="13.74%" x2="90.63%" y2="25.51%" style="stroke:rgb(255,255,255);stroke-width:1"/>
-                    <line xmlns="http://www.w3.org/2000/svg" x1="90.63%" y1="25.51%" x2="11.56%" y2="40.35%" style="stroke:rgb(255,255,255);stroke-width:1"/>
-                    <line xmlns="http://www.w3.org/2000/svg" x1="11.56%" y1="40.35%" x2="82.97%" y2="53.08%" style="stroke:rgb(255,255,255);stroke-width:1"/>
-                    <line xmlns="http://www.w3.org/2000/svg" x1="82.97%" y1="53.08%" x2="5.16%" y2="60.83%" style="stroke:rgb(255,255,255);stroke-width:1"/>
-                    <line xmlns="http://www.w3.org/2000/svg" x1="5.16%" y1="60.83%" x2="90.94%" y2="75.92%" style="stroke:rgb(255,255,255);stroke-width:1"/>
-                    <line xmlns="http://www.w3.org/2000/svg" x1="90.94%" y1="75.92%" x2="8.43%" y2="88.9%" style="stroke:rgb(255,255,255);stroke-width:1"/>
-                    <circle xmlns="http://www.w3.org/2000/svg" cx="7.81%" cy="13.74%" r="4" fill="#FFF"/>
-                    <circle xmlns="http://www.w3.org/2000/svg" cx="19%" cy="15.3%" r="5" stroke="#FFF" stroke-width="3" fill="#468E7C"/>
-                    <circle xmlns="http://www.w3.org/2000/svg" cx="90.63%" cy="25.51%" r="4" fill="#FFF"/>
-                    <circle xmlns="http://www.w3.org/2000/svg" cx="78%" cy="27.9%" r="5" stroke="#FFF" stroke-width="3" fill="#F79536"/>
-                    <circle xmlns="http://www.w3.org/2000/svg" cx="11.56%" cy="40.35%" r="5" stroke="#FFF" stroke-width="3" fill="#5FA3FF"/>
-                    <circle xmlns="http://www.w3.org/2000/svg" cx="51.6%" cy="47.45%" r="4" fill="#FFF"/>
-                    <circle xmlns="http://www.w3.org/2000/svg" cx="82.97%" cy="53.08%" r="5" stroke="#FFF" stroke-width="3" fill="#05BD64"/>
-                    <circle xmlns="http://www.w3.org/2000/svg" cx="5.16%" cy="60.83%" r="4" fill="#FFF"/>
-                    <circle xmlns="http://www.w3.org/2000/svg" cx="90.94%" cy="75.92%" r="4" fill="#FFF"/>
-                    <circle xmlns="http://www.w3.org/2000/svg" cx="8.43%" cy="88.9%" r="4" fill="#FFF"/>
-                </svg>
-            </div>
-            <section class="sec01 sec01_show" style="display:;">
+            <section class="sec01" style="display:;">
                 <h2>腾讯互动娱乐2014年度发布会</h2>
-                <span class="ico_up"></span>
+                <h2 class="title title-1"></h2>
+                <div class="title title-2"></div>
                 <div class="layer" data-depth="0.75">
-                    <span class="ico_tri01"></span><span class="ico_tri02"></span><span class="ico_tri03"></span>
+                    <span class="rgb-arrow rgb-arrow-y"></span>
+                    <span class="rgb-arrow rgb-arrow-b-l"></span>
+                    <span class="rgb-arrow rgb-arrow-g"></span>
+                    <span class="rgb-arrow rgb-arrow-r-l"></span>
                 </div>
                 <div class="layer" data-depth="1.2">
                     <span class="ico_tri04"></span><span class="ico_tri05"></span><span class="ico_tri06"></span>
@@ -217,7 +200,6 @@ function initPage(){
 	pages = $(".wrap section");
 	$(".bg .bg_sec").css("height",pageHeight);
     var bg_sec_height = $('.bg .bg_sec').height();
-    $(".svg").css("height",bg_sec_height*8);
 
     $(".wrap section").css({
         "width":pageWidth+"px",//"height":$(".wrap").height()+"px"
