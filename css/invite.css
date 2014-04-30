@@ -26,7 +26,7 @@ section{display: block;}
 .ico_naruto,.ico_roco,.ico_garen,.ico_tri08{background: url(http://ossweb-img.qq.com/images/invatation/icon03.png) no-repeat;background-size: 169px;}
 
 .sec01{overflow: hidden;z-index: 3;}
-.bg01{background: #EAEBED url(http://ossweb-img.qq.com/images/invatation/bg_01.jpg) center top no-repeat;background-size: 320px;}
+.bg01{background: #EAEBED url(../img/bg01.gif) center center no-repeat;background-size: cover;}
 .sec01 span,.sec01 b{z-index: 3;position: absolute;display: block;}
 .sec01 .ico_tri01{right: 50%;margin-right: 90px;top: 10%;width: 96px;height: 57px;background-position: -2px -8.5px;}
 .sec01 .ico_tri02{left: 50%;margin-left: 80px;top: 18%;width: 64px;height: 60px;background-position: -108px -6.5px;}
@@ -35,10 +35,40 @@ section{display: block;}
 .sec01 .ico_tri05{left: 50%;margin-left: 110px;top: 42%;width: 85px;height: 104px;background-position: -97.5px -76px;}
 .sec01 .ico_tri06{right: 50%;margin-right: 95px;top: 64%;width: 63px;height: 93px;background-position: -202px -76px;}
 .sec01 .ico_up{left: 50%;margin-left: 40px;top: 14%;width: 62px;height: 87px;background-position: -279.5px 0;}
-.sec01 .start,.sec02 .start,.sec03 .start,.sec04 .start,.sec05 .start,.sec06 .start,.sec07 .start{position: absolute;left: 50%;margin-left: -17px;top: 93%;margin-top: -34px;width: 34px;height: 34px;}
-.sec02 .start,.sec03 .start,.sec04 .start,.sec05 .start,.sec06 .start,.sec07 .start{top: 95%;}
-.sec01 .start{background: rgba(160,160,160,0.9);border-radius: 100%;}
-.sec01 .start b,.sec02 .start b,.sec03 .start b,.sec04 .start b,.sec05 .start b,.sec06 .start b,.sec07 .start b{position: absolute;left: 50%;margin-left: -10px;z-index: 3;font-size: 1.25rem;color: #FFF;text-align: center;line-height: 29px;-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+.sec01 .start,
+.sec02 .start,
+.sec03 .start,
+.sec04 .start,
+.sec05 .start,
+.sec06 .start,
+.sec07 .start{
+	position: absolute;left: 50%; top: 93%;
+	margin-left: -17px; margin-top: -34px; width: 34px;height: 34px;
+}
+.sec02 .start,
+.sec03 .start,
+.sec04 .start,
+.sec05 .start,
+.sec06 .start,
+.sec07 .start {
+	top: 95%;
+}
+.sec01 .start {
+	background: rgba(160,160,160,0.9);
+	border-radius: 100%;
+}
+.sec01 .start b,
+.sec02 .start b,
+.sec03 .start b,
+.sec04 .start b,
+.sec05 .start b,
+.sec06 .start b,
+.sec07 .start b {
+	  position: absolute;left: 50%;z-index: 3;
+	  margin-left: -10px;
+	  font-size: 1.25em;color: #FFF;text-align: center;line-height: 29px;
+	  -webkit-transform: rotate(180deg);transform: rotate(180deg);
+}
 
 .sec01_show h2{-webkit-animation: opa 1.5s linear;animation: opa 1.5s linear;}
 @-webkit-keyframes opa {0% {opacity: 0}}
