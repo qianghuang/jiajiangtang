@@ -122,7 +122,16 @@ section{display: block;}
 .sec section{overflow: hidden;position: relative;width: 100%;/*min-height: 416px;*/z-index: 3;-webkit-backface-visibility:hidden;}
 .drag{-webkit-transition:none;transition:none;}
 
-
+.start-tips {
+	position: absolute;left:-22px;top:-24px;z-index:10;
+	width:80px;
+	display:block;
+	font-style:normal;white-space: nowrap;color:#fff;text-align:center;
+}
+.sec01 .start-tips,
+.sec06 .start-tips {
+	color:#333;
+}
 .sec01{overflow: hidden;z-index: 3;}
 .bg01 {
 	background: #e2e3e3 url(../img/bg01.gif) center center no-repeat;
